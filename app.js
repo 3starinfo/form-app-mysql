@@ -15,7 +15,7 @@ app.set('view engine', 'jade');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res){
-  pg.connect(process.env.DATABASE_URL, function(err, client, done) {
+  pg.connect(process.env.postgresql-curved-99363, function(err, client, done) {
   connection.query('SELECT * FROM demo_user', function(err, rows){
     res.render('users', {users : rows});
   });
