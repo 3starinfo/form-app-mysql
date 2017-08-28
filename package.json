@@ -1,0 +1,17 @@
+{
+  "name": "node-form",
+  "version": "0.0.1",
+  "description": "form demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "make test",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "jade": "^1.11.0",
+    "mysql": "^2.14.1",
+    "path": "^0.12.7",
+    "pg": "^7.2.0"
+  }
+}
